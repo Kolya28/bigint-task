@@ -184,7 +184,7 @@ TEST(correctness, compare_negative_and_negative) {
   EXPECT_FALSE(a < b);
   EXPECT_FALSE(a > b);
   EXPECT_TRUE(a >= b);
-  EXPECT_TRUE(a >= b);
+  EXPECT_TRUE(a <= b);
 }
 
 TEST(correctness, add) {
